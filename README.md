@@ -21,12 +21,12 @@ def data_read_images_from_files(file_names):
 ```
 - **Example of car images**
 <p float="left">
-  <img src="Images/car_samples.png" width="80%" />
+  <img src="./car_samples.png" width="80%" />
 </p>
 
 - **Example of non-car images**
 <p float="left">
-  <img src="Images/nocar_samples.png" width="80%" />
+  <img src="./nocar_samples.png" width="80%" />
 </p>
 
 ## 2. Feature Extraction
@@ -56,7 +56,7 @@ def GetFeaturesFromHog(image,orient,cellsPerBlock,pixelsPerCell, visualise= Fals
 ```
 - HOG feature extraction example
 <p float="left">
-  <img src="Images/HOG-Results.png" width="80%" />
+  <img src="./HOG-Results.png" width="80%" />
 </p>
 
 - The HOG function expects a single channel image. So we defined a method ```ExtractFeatures``` which calls the function ```GetFeaturesFromHog``` and stacks all the features returned from different color channels
@@ -156,7 +156,7 @@ def DrawCars(image,windows, converColorspace=False):
     Total No of windows are  203
 
 <p float="left">
-  <img src="Images/Sliding-Window-Result.png" width="80%" />
+  <img src="./Sliding-Window-Result.png" width="80%" />
 </p>
 
 Once we were able to detect the car by using Sliding Window approach. The next we decided to use a heatup to plot the final bounding boxes around the car. we defined a function add_heat that increments the pixel value of an black image the size of the original image at the location of each detected window which we called as refined Window.
@@ -183,7 +183,7 @@ def apply_threshold(heatmap, threshold):
 
 **Finally the next point is to draw bounding boxes on the final image**
 <p float="left">
-  <img src="Images/heatmap-Result.png" width="80%" />
+  <img src="./heatmap-Result.png" width="80%" />
 </p>
 
 
