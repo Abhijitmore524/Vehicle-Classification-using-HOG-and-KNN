@@ -186,6 +186,3 @@ def apply_threshold(heatmap, threshold):
   <img src="./heatmap-Result.png" width="80%" />
 </p>
 
-
-# References
-- [HOG Feature Extraction and KNN Classification for Detecting Vehicle in The Highway](https://www.researchgate.net/publication/343766462_HOG_Feature_Extraction_and_KNN_Classification_for_Detecting_Vehicle_in_The_Highway/fulltext/5f3e76d1458515b72931c082/HOG-Feature-Extraction-and-KNN-Classification-for-Detecting-Vehicle-in-The-Highway.pdf)
